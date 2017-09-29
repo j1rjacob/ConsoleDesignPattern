@@ -3,11 +3,11 @@ using System;
 
 namespace ConsoleDesignPattern.Abilities
 {
-    public class MuteQuack : IQuackBehavior
+    public class Squeak : IQuackBehavior
     {
         public void quack()
         {
-            Console.WriteLine("<< Silence >>");
+            Console.WriteLine("Squeak");
         }
     }
 }
